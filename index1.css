@@ -1,0 +1,449 @@
+
+@font-face {
+  font-family: "UVN Lac Long Quan";
+  src: url('./fonts/fonts/UVNLacLongQuan.woff2') format('woff2'),
+      url('./fonts/fonts/UVNLacLongQuan.woff') format('woff'),
+      url('./fonts/fonts/UVNLacLongQuan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family:"UVN Lac Long Quan";
+}
+.header {
+	position: relative;
+  background-image: url("./IMG/banner.jpg");
+    background-size: cover;
+    height: 240px;
+  color: #ffffff;
+  align-items: center;
+  
+}
+
+.logo {
+	position: absolute;
+	top: 40px;
+	left: 30px;
+  
+	display: flex;
+	align-items: center;
+}
+
+ img {
+	height: 120px;
+	margin-right: 20px;
+}
+
+.text h1 {
+	font-size: 48px;
+	margin: 0;
+}
+
+.text h2 {
+	font-size: 24px;
+	margin: 0;
+}
+
+.contact {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	font-size: 24px;
+}
+
+
+
+nav {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #345c54;
+	width: 100%;
+  font-size: 13px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	flex: 1;
+	text-align: center;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px;
+}
+
+nav a:hover {
+	background-color: #23a7a4;
+}
+
+
+#background {
+  background-image: url("./IMG/background.jpg");
+  background-size: cover;
+  height: 300px;
+}
+#text {
+  color:#111;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.container {
+  display: flex; /* Sử dụng flexible box layout để xếp các khối trên cùng một hàng. */
+  justify-content: center; /* Giữ các khối cân bằng trên trục ngang. */
+  align-items: center; /* Giữ các khối cân bằng trên trục dọc. */
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #2c7d61;
+  box-shadow: 5px 5px 10px rgb(0, 201, 104);
+  font-size: 24px;
+  font-weight: bold;
+  color: #f8f8f8;
+  text-align: center;
+}
+
+.box img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #15c4bc;
+  color: #fff;
+  height: auto;
+  margin-top: 30px;
+  position: relative;
+}
+
+
+.right-section {
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  width: 65%;
+  height: 100%;
+  padding: 10px;
+}
+.left-section {
+  
+  flex-wrap: wrap;
+  width: 35%;
+  height: 100%;
+  padding: 10px;
+}
+.separator {
+  position: absolute;
+  left: 35%;
+  transform: translateX(-50%);
+  width: 2px;
+  background-color: #fff;
+  height: 90%;
+}
+
+.left-section p {
+  margin: 5px;
+  text-align: right;
+  
+}
+.left-section img{
+  margin-top:50px;
+  margin-left:50px;
+  width: 350px;
+  height: 250px;
+
+
+
+}
+.right-section p {
+  margin: 5px;
+  text-align: left;
+}
+.left-section p:nth-child(2n),
+.right-section p:nth-child(2n) {
+  color: #e5ed69;
+}
+
+/*
+*/
+.blockmain{
+  flex-wrap: wrap;
+}
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.block_left{
+  width: 20%;
+  margin-left: 5%;
+  background-color: #1d8084;
+}
+.block_left img {
+  height: 150px;
+  width: 100%;
+  
+}
+
+
+
+.block_left a {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left:45px;
+  color:#f7fafa;
+  text-align: center;
+}
+
+.block_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  width: 55%;
+  margin-left: 8%;
+  padding: 5px;
+  background-color: #949b9c;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.left-section1{
+  width:40%
+}
+.left-section1 p {
+  font-size: 1rem;
+  margin-left: 15px;
+  
+}
+
+.separator1 {
+  height: 80%;
+  width: 2px;
+  background-color:#000000;
+  margin: 0 20px;
+}
+
+.right-section1 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width:58%
+}
+
+.right-section1 p {
+  margin: 0;
+}
+
+button {
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: #fff;
+  /*border: none;*/
+  margin-left:70px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+
+
+
+.block_coach{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: #542828;
+  color: #fff;
+  margin-top: 5px;
+}
+.block_coach_logo {
+ 
+	top: 40px;
+	left: 30px;
+  display: flex;
+  
+}
+.block_coach_logo img {
+  width: 220px;
+  height: 120px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.block_coach_logo_text{
+  position: relative;
+  display: wrap;
+  width: 600px;
+  top:35px;
+}
+.block_coach_logo_text h1{
+  font-size: 38px;
+	top: 40px;
+  
+}
+.block_coach_logo_text h2{
+	font-size: 24px;
+  top: 50px;
+ 
+}
+ 
+.block_coach_banner{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: #6a4d4d;
+  align-items: center;
+  margin-top: 10px;
+}
+.block_coach_banner img{
+  width: 100%;
+  height: 600px;
+  opacity: 0.6;
+  }
+.block_coach_banner h1,h2{
+  font-size: 50px;
+  position: absolute;
+  font-size: 38px;
+  
+}
+.block_coach_banner h1{
+  top: 380px;
+  left:600px;
+}
+.block_coach_banner h2{
+  top: 420px;
+  left:300px;
+}
+
+
+.block_coach_text{
+  position: relative;
+  width: 88%;
+  height: auto;
+  top: 30px;
+  left: 80px;
+  font-size: 20px;
+  text-align: justify;
+}
+.block_coach_intro {
+  display: wrap;
+  position: relative;
+  width: 88%;
+  height: auto;
+  justify-content: center;
+  top: 30px;
+  left: 80px;
+  font-size: 20px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ background-color: #542828;
+}
+.block_coach_texted p{
+ 
+ margin: 50px;
+ 
+}
+.block_coach_content{
+  display: flex;
+  position: relative;
+}
+.block_coach_content img{
+  width: 25%;
+  height: auto;
+  top: 20px;
+}
+.block_coach_content_text {
+  display: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  width: 75%;
+  height: auto;
+  
+
+}
+.block_coach_content h1{
+  font-size: 30px;
+  top: 0;
+  text-decoration:underline;
+}
+.block_coach_content p{
+  font-size: 20px;
+}
+footer{
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  color: #fefbfb;
+}
+ .footer_line{
+    width: 40%;
+    height: 3px;
+    background-color: rgb(240, 199, 34);
+    margin-left: 30%;
+ }
+
+ .footer h1{
+  text-align: center;
+  margin-top: 50px;
+ }
+ .footer_dt{
+  margin-left:20%;
+  margin-top: 50px;
+  
+ }
+.footer_dt img{
+  width: 200px;
+  height: 150px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  border-radius:10px;
+}
